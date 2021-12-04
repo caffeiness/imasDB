@@ -39,5 +39,6 @@
   }
 
 ?>
+<a href="/imasPHP/index_DB.php" class="form__btn-back">戻る</a>
 </body>
 </html>
