@@ -16,5 +16,13 @@
     <div><input type="submit" name="submit" value="投稿" class="button"></div>
   </form>
 </div>
+<div id="post_page">
+  <form method="post" action="music.php">
+    <div>music_name <input type="text" name="music_name" size="30"></div>
+    <div>category <input type="text" name="attribute" size="30"></div>
+    <div>name <input type="text" name="name" size="30"></textarea></div>
+    <div><input type="submit" name="submit" value="確認" class="button"></div>
+  </form>
+</div>
 </body>
 </html>

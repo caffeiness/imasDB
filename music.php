@@ -1,10 +1,7 @@
 <?php
-$dsn = 'mysql:dbname=imasDB;host=127.0.0.1';
-$user = 'user';
-$password = 'pass';
+require("db_connect.php");
 $sql = "SELECT * FROM imasDB";
-$PDO = new PDO($dsn, $user, $password); //MySQLのデータベースに接続
-$PDO->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); //PDOのエラーレポートを表示
+$PDO = db_connect();
 // SQLステートメントを実行し、結果を変数に格納
 $stmt = $PDO->query($sql);
  
@@ -17,4 +14,32 @@ foreach ($stmt as $row) {
   // 改行を入れる
   echo '<br>';
 }
+if(isset($_POST["del_name"])){
+  $del_name = $_POST["del_name"];
+  //ここ備忘録
+  $del_sql = "DELETE FROM imasDB WHERE music_name = '". $del_name ."'";
+  $stmt = $PDO->prepare($del_sql);
+  $stmt -> execute();
+} else {
+  $del_name = "";
+}
 ?>
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="このページの説明">
+  <title>このページのタイトル</title>
+  <link rel="stylesheet" href="/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+<div id="post_page">
+  <form method="post" action="">
+    <div>delete name <input type="text" name="del_name" size="30"></div>
+    <div><input type="submit" name="submit" value="削除" class="button"></div>
+  </form>
+</div>
+</body>
+</html>
