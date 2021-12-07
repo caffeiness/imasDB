@@ -11,19 +11,13 @@
 
 <?php
   try {
-    //DB名、ユーザー名、パスワード
-    $dsn = 'mysql:dbname=imasDB;host=127.0.0.1';
-    $user = 'user';
-    $password = 'pass';
-
-    $PDO = new PDO($dsn, $user, $password); //MySQLのデータベースに接続
-    $PDO->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); //PDOのエラーレポートを表示
-
+    require("db_connect.php");
     //input_post.phpの値を取得
     $music_name = $_POST['music_name'];
     $attribute = $_POST['attribute'];
     $name = $_POST['name'];
 
+    $PDO = db_connect();
 
     $sql = "INSERT INTO imasDB (music_name, attribute, name) VALUES (:music_name, :attribute, :name)"; // INSERT文を変数に格納。:nameや:categoryはプレースホルダという、値を入れるための単なる空箱
     $stmt = $PDO->prepare($sql); //挿入する値は空のまま、SQL実行の準備をする
