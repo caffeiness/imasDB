@@ -41,5 +41,6 @@ if(isset($_POST["del_name"])){
     <div><input type="submit" name="submit" value="削除" class="button"></div>
   </form>
 </div>
+<a href="/imasPHP/index_DB.php" class="form__btn-back">確認</a>
 </body>
 </html>
