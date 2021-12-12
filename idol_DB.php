@@ -1,6 +1,9 @@
 <?php
+session_start();
+// セッション情報の取得
+$name = $_SESSION['idol'];
 require("db_connect.php");
-$name =  $_POST["idol"];
+//$name =  $_GET["idol"];
 $sql = "SELECT * FROM imasDB WHERE name = '". $name ."'";
 $PDO = db_connect();
 // SQLステートメントを実行し、結果を変数に格納
