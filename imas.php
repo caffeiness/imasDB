@@ -301,6 +301,167 @@
 											<span class="idolSelect__group-name">兵藤 レナ</span>
 										</label>
 									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
+									<li class="idolSelect__list-item">
+										<label class="idolSelect__list-label">
+											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
+											<span class="idolSelect__group-name">兵藤 レナ</span>
+										</label>
+									</li>
 								</ul>
 							</section>
 								<p class="form__link">
