@@ -1,3 +1,7 @@
+<?php
+	session_start();
+	$_SESSION['idol'] = "idol";
+?>
 <!DOCTYPE html>
 <html dir="ltr" lang="ja">
 <meta charset="utf-8">
@@ -20,7 +24,7 @@
 				<section class="section">
 					<div class="idol">
 						<h3 class="section__hl">宣伝するアイドルを<br class="spVisible">選んでください！</h3>
-						<form action="" class="form" method="GET">
+						<form action="idol_DB.php" class="form" method="GET">
 							<input type="radio" name="idol" value="" hidden checked>
 							<section class="idolSelect">
 								<h4 class="idolSelect__hl">
@@ -468,6 +472,7 @@
 									<a href="/maker/?view=name&name=カフェイン堕天使" class="form__btn-back">戻る</a>
 									<button class="form__btn-next" type="submit">次へ</button>
 								</p>
+								<input type="submit" value="勝負">
 							</section>
 						</form>
 					</div>

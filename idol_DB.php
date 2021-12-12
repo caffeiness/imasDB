@@ -1,16 +1,22 @@
 <?php
 require("db_connect.php");
-$sql = "SELECT * FROM imasDB";
+$name =  $_POST["idol"];
+$sql = "SELECT * FROM imasDB WHERE name = '". $name ."'";
 $PDO = db_connect();
 // SQLステートメントを実行し、結果を変数に格納
 $stmt = $PDO->query($sql);
  
 // foreach文で配列の中身を一行ずつ出力
 foreach ($stmt as $row) {
- 
   // データベースのフィールド名で出力
-  echo $row['music_name'].'：'.$row['name'];
- 
+  echo $row['music_name'];
+  if ($row['attribute'] == "COOL"){
+    header('Content-Type: image/png');
+    readfile("images\common\cool_icon.png");
+  }elseif($row['attribute'] == "CUTE"){
+    header('Content-Type: image/png');
+    readfile("images\common\cute_icon.png");
+  }
   // 改行を入れる
   echo '<br>';
 }
