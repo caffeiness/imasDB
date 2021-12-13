@@ -73,3 +73,6 @@ h3 {
     cursor: pointer;
     transition: all .5s ease;
 }
+.idolSelect__hl-icon{
+    width: 100px;
+}

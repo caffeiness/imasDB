@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	$_SESSION['idol'] = "idol";
+	$_SESSION['idol'] = "島村卯月";
 ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="ja">
@@ -164,7 +164,7 @@
 											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_119.png" alt="関 祐美"></span>
 											<span class="idolSelect__group-name">関 祐美</span>
 										</label>
-									</li>祐美
+									</li>
 									<li class="idolSelect__list-item">
 										<label class="idolSelect__list-label">
 											<input name="idol" class="idolSelect__group" value="太田優" type="radio">
@@ -467,7 +467,6 @@
 										</label>
 									</li>
 								</ul>
-							</section>
 								<p class="form__link">
 									<a href="/maker/?view=name&name=カフェイン堕天使" class="form__btn-back">戻る</a>
 									<button class="form__btn-next" type="submit">次へ</button>
