@@ -3,9 +3,10 @@ session_start();
 // セッション情報の取得
 $name = $_GET["idol"];
 var_dump($_GET["idol"]);
+echo "<br>";
 require("db_connect.php");
 //$name =  $_GET["idol"];
-$sql = "SELECT * FROM imasDB WHERE name = '". $name ."'";
+$sql = "SELECT * FROM imasDB WHERE name LIKE '%". $name ."%' OR name='全員'";
 $PDO = db_connect();
 // SQLステートメントを実行し、結果を変数に格納
 $stmt = $PDO->query($sql);

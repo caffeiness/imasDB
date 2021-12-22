@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	$_SESSION['idol'] = "島村卯月";
+	//$_SESSION['idol'] = "島村卯月";
 ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="ja">
