@@ -23,6 +23,9 @@
 			<article class="main__inner">
 				<section class="section">
 					<div class="idol">
+						<form action="music.php" method="POST">
+							<input type="submit" value="登録">
+						</form>
 						<h3 class="section__hl">宣伝するアイドルを<br class="spVisible">選んでください！</h3>
 						<form action="idol_DB.php" class="form" method="GET">
 							<input type="radio" name="idol" value="" hidden checked>
@@ -471,7 +474,6 @@
 									<a href="/maker/?view=name&name=カフェイン堕天使" class="form__btn-back">戻る</a>
 									<button class="form__btn-next" type="submit">次へ</button>
 								</p>
-								<input type="submit" value="勝負">
 							</section>
 						</form>
 					</div>

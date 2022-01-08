@@ -7,10 +7,15 @@ $stmt = $PDO->query($sql);
  
 // foreach文で配列の中身を一行ずつ出力
 foreach ($stmt as $row) {
- 
   // データベースのフィールド名で出力
-  echo $row['music_name'].'：'.$row['name'];
- 
+  echo $row['music_name'];
+  if ($row['attribute'] == "COOL"){
+    echo '<img src="images\common\cool_icon.png" width="20" height="20" >';
+  }elseif($row['attribute'] == "CUTE"){
+    echo '<img src="images\common\cute_icon.png" width="20" height="20" >';
+  }elseif($row['attribute'] == "PASSION"){
+    echo '<img src="images\common\passion_icon.png" width="20" height="20" >';
+  }
   // 改行を入れる
   echo '<br>';
 }

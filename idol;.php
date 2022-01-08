@@ -22,6 +22,9 @@ foreach ($stmt as $row) {
   }elseif($row['attribute'] == "CUTE"){
     //header('Content-Type: image/png');
     echo '<img src="images\common\cute_icon.png" width="20" height="20" >';
+  }elseif($row['attribute'] == "PASSION"){
+    //header('Content-Type: image/png');
+    echo '<img src="images\common\passion_icon.png" width="20" height="20" >';
   }
   // 改行を入れる
   echo '<br>';
