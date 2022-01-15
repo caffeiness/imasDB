@@ -46,5 +46,6 @@ if(isset($_POST["del_name"])){
   </form>
 </div>
 <a href="/imasPHP/index_DB.php" class="form__btn-back">確認</a>
+<a href="/imasPHP/imas.php" class="form__btn-back">戻る</a>
 </body>
 </html>
