@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="ja">
 <meta charset="utf-8">
-<title>ミリシタ 宣材資料メーカー | アイドルマスター ミリオンライブ！ シアターデイズ</title>
+<title>デレマスDB</title>
 <meta name="description" content="アイドルたちの魅力をプロデューサーさんの力で伝えましょう！おすすめの楽曲、アピールポイントなどプロデューサーさん視点で宣材資料の作成をお願いします！">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="robots" content="noindex" />
@@ -26,13 +26,12 @@
 						<form action="music.php" method="POST">
 							<input type="submit" value="登録">
 						</form>
-						<h3 class="section__hl">宣伝するアイドルを<br class="spVisible">選んでください！</h3>
+						<h3 class="section__hl">調べたいアイドルを<br class="spVisible">選んでください！</h3>
 						<form action="idol_DB.php" class="form" method="GET">
 							<input type="radio" name="idol" value="" hidden checked>
 							<section class="idolSelect">
 								<h4 class="idolSelect__hl">
-									<span class="idolSelect__hl-icon"><img src="/images/common/icon_idol_princess.png" alt=""></span>
-									<span class="idolSelect__hl-princess">Cute</span>
+									<span class="idolSelect__hl-icon"><img src="images/common/cute_icon.png" alt="" class="idolSelect__hl-icon"></span>
 								</h4>
 								<ul class="idolSelect__list idolSelect__list-princess">
 									<li class="idolSelect__list-item">
@@ -305,42 +304,42 @@
 										<label class="idolSelect__list-label">
 											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
 											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
-											<span class="idolSelect__group-name">兵藤 レナ</span>
+											<span class="idolSelect__group-name">兵藤レナ</span>
 										</label>
 									</li>
 									<li class="idolSelect__list-item">
 										<label class="idolSelect__list-label">
-											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
-											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
-											<span class="idolSelect__group-name">兵藤 レナ</span>
+											<input name="idol" class="idolSelect__group" value="丹波仁美" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_140.png" alt="丹波 仁美"></span>
+											<span class="idolSelect__group-name">丹波 仁美</span>
 										</label>
 									</li>
 									<li class="idolSelect__list-item">
 										<label class="idolSelect__list-label">
-											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
-											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
-											<span class="idolSelect__group-name">兵藤 レナ</span>
+											<input name="idol" class="idolSelect__group" value="道明寺歌鈴" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_141.png" alt="道明寺 歌鈴"></span>
+											<span class="idolSelect__group-name">道明寺 歌鈴</span>
 										</label>
 									</li>
 									<li class="idolSelect__list-item">
 										<label class="idolSelect__list-label">
-											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
-											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
-											<span class="idolSelect__group-name">兵藤 レナ</span>
+											<input name="idol" class="idolSelect__group" value="柳清良" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_145.png" alt="柳 清良"></span>
+											<span class="idolSelect__group-name">柳 清良</span>
 										</label>
 									</li>
 									<li class="idolSelect__list-item">
 										<label class="idolSelect__list-label">
-											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
-											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
-											<span class="idolSelect__group-name">兵藤 レナ</span>
+											<input name="idol" class="idolSelect__group" value="井村雪菜" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_147.png" alt="井村 雪菜"></span>
+											<span class="idolSelect__group-name">井村 雪菜</span>
 										</label>
 									</li>
 									<li class="idolSelect__list-item">
 										<label class="idolSelect__list-label">
-											<input name="idol" class="idolSelect__group" value="兵藤レナ" type="radio">
-											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_139.png" alt="兵藤 レナ"></span>
-											<span class="idolSelect__group-name">兵藤 レナ</span>
+											<input name="idol" class="idolSelect__group" value="日下部若菜" type="radio">
+											<span class="idolSelect__group-img"><img src="images\idol\chara_icon_148.png" alt="日下部 若菜"></span>
+											<span class="idolSelect__group-name">日下部 若菜</span>
 										</label>
 									</li>
 									<li class="idolSelect__list-item">
