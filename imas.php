@@ -26,6 +26,9 @@
 						<form action="music.php" method="POST">
 							<input type="submit" value="登録">
 						</form>
+						<form action="search_music.php" method="POST">
+							<input type="submit" value="楽曲から調べる">
+						</form>
 						<h3 class="section__hl">調べたいアイドルを<br class="spVisible">選んでください！</h3>
 						<form action="idol_DB.php" class="form" method="GET">
 							<input type="radio" name="idol" value="" hidden checked>
