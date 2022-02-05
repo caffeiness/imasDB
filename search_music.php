@@ -37,6 +37,7 @@ if(isset($_POST["search_name"])){
     <div>search music-name <input type="text" name="search_name" size="30"></div>
     <div><input type="submit" name="submit" value="検索" class="button"></div>
   </form>
+<a href="/imasPHP/imas.php" class="form__btn-back">戻る</a>
 </div>
 </body>
 </html>

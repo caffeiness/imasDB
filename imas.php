@@ -473,7 +473,7 @@
 									</li>
 								</ul>
 								<p class="form__link">
-									<a href="/maker/?view=name&name=カフェイン堕天使" class="form__btn-back">戻る</a>
+									<!-- <a href="/maker/?view=name&name=カフェイン堕天使" class="form__btn-back">戻る</a> -->
 									<button class="form__btn-next" type="submit">次へ</button>
 								</p>
 							</section>
